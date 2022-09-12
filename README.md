@@ -4,7 +4,7 @@
 [![Unlicense](https://img.shields.io/badge/License-Unlicense-blue.svg)](https://unlicense.org/)
 [![Maintenance](https://img.shields.io/badge/maintained-no-red.svg)](https://bitbucket.org/lbesson/ansi-colors)
 
-![logo](https://i.imgur.com/F46zO5F.png)
+![logo](https://i.imgur.com/polR4mt.png)
 
 #### 🍰 A simple CLI password generator written in Java 🍰
 
