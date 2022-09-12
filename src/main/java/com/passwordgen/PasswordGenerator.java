@@ -8,17 +8,24 @@ interface Generator {
 }
 
 /**
- * A Generator which generates passwords
+ * A Generator which generates passwords.
  *
  * @author chr3st5an
  * @version 1.0
  */
 public class PasswordGenerator implements Generator {
+    /**
+     * The desired password length
+     */
     private final int length;
+
+    /**
+     * The charset used to generate the password
+     */
     private final String[] charset;
 
     /**
-     * Create a Generator instance
+     * Create a Generator instance.
      *
      * @param length  the desired password length
      * @param charset the charset that will get used to generate
@@ -30,7 +37,7 @@ public class PasswordGenerator implements Generator {
     }
 
     /**
-     * Create a Generator instance
+     * Create a Generator instance.
      *
      * @param length  the desired password length
      * @param charset the charset that will get used to generate
@@ -47,7 +54,7 @@ public class PasswordGenerator implements Generator {
 
     /**
      * Generate a new password based on the parameters
-     * given by the constructor
+     * given by the constructor.
      *
      * @return the generated password
      */
@@ -63,7 +70,7 @@ public class PasswordGenerator implements Generator {
     }
 
     /**
-     * Alias for <code> generatePassword </code>
+     * Alias for <code> generatePassword </code>.
      */
     public String generate() {
         return generatePassword();

@@ -9,8 +9,8 @@ package com.passwordgen;
  * @version 1.0
  */
 public class Ascii {
-    static final String lower       = "qwertzuiopasdfghjklyxcvbnm";
-    static final String upper       = "QWERTZUIOPASDFGHJKLYXCVBNM";
-    static final String digits      = "0123456789";
-    static final String punctuation = "^!\"%&$/()=?[]{}\\@.,;:-_+*`~#'<>|";
+    public static final String lower       = "qwertzuiopasdfghjklyxcvbnm";
+    public static final String upper       = "QWERTZUIOPASDFGHJKLYXCVBNM";
+    public static final String digits      = "0123456789";
+    public static final String punctuation = "^!\"%&$/()=?[]{}\\@.,;:-_+*`~#'<>|";
 }
